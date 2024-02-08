@@ -19,7 +19,7 @@ const Nutrition = () => {
             <>
               <div key={`${index}-${obj.key}`} className="flex justify-between h-[30px] pl-[20px] mt-[10px]">
                 <div className="w-[50%]  ">
-                  <p className="text-[#764a43] capitalize text-[17px]">{obj.key}</p>
+                  <p className="capitalize text-[15px] opacity-70">{obj.key}</p>
                 </div>
                 <div className="w-[50%] ">
                   <p className="font-semibold text-[#764a43]">{obj.description}</p>

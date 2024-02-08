@@ -8,37 +8,38 @@ import Preparation from "../preparation";
 const Card = () => {
   return (
     <div
-      className="w-[40%] h-[90%] bg-white 
-        rounded-[15px] p-[20px]"
+      className="w-[100%] md:w-[40%] h-[90%] bg-white 
+        rounded-[15px] "
     >
-      <div className="rounded-[15px] w-full h-[300px] overflow-hidden ">
+      <div className="rounded-[15px] w-full h-[300px] overflow-hidden md:p-[20px]">
         <img
           src={FoodImage}
           alt="food image"
-          className="object-fill w-full h-full"
+          className="object-fill w-full h-full rounded-[15px]"
         />
       </div>
-
-      <div className="mt-[20px]">
-        <h1
-          className="text-[27px] font-semibold capitalize"
-          style={{ letterSpacing: "2px", wordSpacing: "4px" }}
-        >
-          {RECEIPE_NAME}
-        </h1>
-        <p className="text-[13px] mt-[10px]">{RECEIPE_DESCRIPTION}</p>
-      </div>
-      <Preparation />
-      <div className="mt-[14px] mb-[15px]">
-        <Ingredients />
-      </div>
-      <hr />
-      <div className="mt-[14px] mb-[15px]">
-        <Instructions />
-      </div>
-      <hr />
-      <div className="mt-[14px] mb-[15px]">
-        <Nutrition />
+      <div className="p-[20px]">
+        <div className="mt-[20px]">
+          <h1
+            className="text-[27px] font-semibold capitalize"
+            style={{ letterSpacing: "2px", wordSpacing: "4px" }}
+          >
+            {RECEIPE_NAME}
+          </h1>
+          <p className="text-[13px] mt-[10px]">{RECEIPE_DESCRIPTION}</p>
+        </div>
+        <Preparation />
+        <div className="mt-[14px] mb-[15px]">
+          <Ingredients />
+        </div>
+        <hr />
+        <div className="mt-[14px] mb-[15px]">
+          <Instructions />
+        </div>
+        <hr />
+        <div className="mt-[14px] mb-[15px]">
+          <Nutrition />
+        </div>
       </div>
     </div>
   );
