@@ -7,7 +7,7 @@ import {
 const Nutrition = () => {
   return (
     <div>
-      <h3 className="capitalize text-[#764a43] font-semibold text-[17px]">
+      <h3 className="capitalize text-[#764a43] font-young-serif text-[17px]">
         {NUTRITION_HEADER}
       </h3>
       <p className="text-[14px] capitalize mt-[15px]">

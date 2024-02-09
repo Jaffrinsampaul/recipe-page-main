@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "outfit-black";
+  src: url("./assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "outfit-semibold";
+    src: url("./assets/fonts/outfit/static/Outfit-Medium.ttf");
+  }
+
+@font-face {
+  font-family: "young-serif";
+  src: url("./assets/fonts/young-serif/YoungSerif-Regular.ttf");
+}
+
+@font-face {
+  font-family: "outfit-thin";
+  src: url("./assets/fonts/outfit/static/Outfit-Light.ttf");
+}

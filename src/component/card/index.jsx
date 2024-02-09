@@ -21,14 +21,16 @@ const Card = () => {
       <div className="p-[20px]">
         <div className="mt-[20px]">
           <h1
-            className="text-[27px] font-semibold capitalize"
+            className="text-[27px] font-semibold capitalize font-young-serif"
             style={{ letterSpacing: "2px", wordSpacing: "4px" }}
           >
             {RECEIPE_NAME}
           </h1>
-          <p className="text-[13px] mt-[10px]">{RECEIPE_DESCRIPTION}</p>
+          <p className="text-[13px] mt-[10px] font-outfit-thin">{RECEIPE_DESCRIPTION}</p>
         </div>
-        <Preparation />
+        <div className="mt-[20px]">
+          <Preparation />
+        </div>
         <div className="mt-[14px] mb-[15px]">
           <Ingredients />
         </div>
